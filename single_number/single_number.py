@@ -4,8 +4,16 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
+    # return the number of the array that only appears once
+    # if the array is empty return -1 or 'no single number on the array'
+    # how to count for the times a number appears on the array
 
-    pass
+    for i in arr:
+        if arr.count(i) == 1:
+            return i
+  
+        
+
 
 
 if __name__ == '__main__':
